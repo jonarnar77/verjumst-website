@@ -1,79 +1,17 @@
 <!DOCTYPE html>
-<html lang="is">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verjumst! - Ný nálgun fyrir betri stjórnunarhætti</title>
-    <style>
-        /* Basic Reset */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
+    <title>Let's defend</title>
+    <script>
+        const userLang = navigator.language || navigator.userLanguage;
+        if (userLang.startsWith('is')) {
+            window.location.replace('/is/');
+        } else {
+            window.location.replace('/en/'); // Default to English
         }
-        /* Background and font styling */
-        body, html {
-            height: 100%;
-            font-family: Arial, sans-serif;
-            color: #ffffff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: url('https://example.com/your-background-image.jpg') no-repeat center center/cover;
-            overflow: hidden;
-        }
-        /* Container styling */
-        .container {
-            background-color: rgba(10, 61, 98, 0.85);
-            padding: 60px;
-            border-radius: 15px;
-            text-align: center;
-            max-width: 700px;
-            width: 90%;
-        }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 15px;
-            color: #f5c518;
-        }
-        p {
-            font-size: 1.4em;
-            line-height: 1.8;
-            margin: 15px 0;
-        }
-        .cta-button {
-            display: inline-block;
-            margin-top: 25px;
-            padding: 18px 30px;
-            font-size: 1.4em;
-            font-weight: bold;
-            color: #0a3d62;
-            background-color: #f5c518;
-            text-decoration: none;
-            border-radius: 10px;
-            transition: background-color 0.3s;
-        }
-        .cta-button:hover {
-            background-color: #e1b716;
-        }
-    </style>
+    </script>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HYY9GH32K2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-HYY9GH32K2');
-</script>
 <body>
-<div class="container">
-    <h1>Verjumst er á leiðinni!</h1>
-    <p>Tryggðu einfaldari stjórnunarhætti og bættu net- og upplýsingaöryggi með Verjumst!.</p>
-    <p>Við erum að vinna hörðum höndum að því að koma Verjumst! í loftið. Verjumst er tól sem hjálpar við að bæta yfirsýn og öryggi, án þess að flækja hlutina óþarflega.</p>
-    <p>Viltu vita meira? Hafðu samband og fáðu upplýsingar:</p>
-    <a href="mailto:verjumst@verjumst.is" class="cta-button">Senda Fyrirspurn</a>
-</div>
+    <p>Redirecting...</p>
 </body>
 </html>

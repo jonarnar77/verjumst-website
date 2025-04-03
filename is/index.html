@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verjumst - Einföld upplýsingatæknistjórnun og reglufylgni fyrir lítil og meðalstór fyrirtæki</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Optional: Google Fonts for a clean look (e.g., Lato or Open Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS (Keep identical to English version) -->
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 6rem 0;
+        }
+        .section-padding {
+            padding: 4rem 0;
+        }
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #0d6efd;
+            display: inline-block;
+        }
+        .placeholder-img { /* This style might be replaced by actual img tags later */
+            background-color: #e9ecef;
+            color: #6c757d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 200px;
+            height: 100%;
+            width: 100%;
+            border: 1px dashed #ced4da;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .testimonial blockquote {
+            font-style: italic;
+            border-left: 4px solid #0d6efd;
+            padding-left: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .card {
+            border: none;
+            /* border: 1px solid #dee2e6; */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light sticky-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="/is/index.html"> <!-- Link brand to IS homepage -->
+          <strong>Verjumst</strong>
+        </a>
+        <div class="d-flex align-items-center">
+             <!-- Language Switcher (Points to English) -->
+             <a href="/en/index.html" class="btn btn-outline-primary btn-sm me-2" title="Skipta yfir á ensku"> 
+                 EN
+             </a>
+             <!-- Existing CTA (TRANSLATED) -->
+             <a href="#cta" class="btn btn-primary">
+                 Óska eftir kynningu 
+             </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- 1. Hero Section -->
+        <section class="hero-section text-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-8">
+                         <!-- Image Placeholder (Ensure path is correct) -->
+                         <!-- <img src="path/to/your/hero-image.jpg" alt="[Íslensk lýsing á hetjumynd]" class="img-fluid rounded shadow-sm mb-4"> -->
+                        <h1 class="display-5 fw-bold mb-3">Náðu tökum á upplýsingatæknistjórnun og uppfylltu NIS2-kröfur af öryggi.</h1>
+                        <p class="lead mb-4">Verjumst þýðir flóknar tæknikröfur yfir í einföld og framkvæmanleg skref fyrir stjórnendur. Farðu frá núllpunkti yfir í að uppfylla kröfur – jafnvel án tæknisérfræðings.</p>
+                        <a href="#cta" class="btn btn-primary btn-lg me-2">Óska eftir kynningu</a>
+                        <a href="#how-it-works" class="btn btn-outline-secondary btn-lg">Sjáðu hvernig það virkar</a>
+                        <p class="text-muted mt-3 small">Engin tækniorð, bara skýr skref.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Problem / Pain Point Section -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col-md-8 mx-auto">
+                        <h2>Ertu ráðalaus gagnvart tæknireglugerðum eins og NIS2?</h2>
+                        <p class="text-muted">Þú ert ekki einn. Margir stjórnendur lítilla og meðalstórra fyrirtækja standa frammi fyrir þessum áskorunum:</p>
+                    </div>
+                </div>
+                <div class="row g-4 mb-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="feature-icon mb-3"><i class="bi bi-compass"></i></div>
+                                <h5 class="card-title">Veist ekki hvar á að byrja?</h5>
+                                <p class="card-text">Ertu týnd(ur) í flækjustigi upplýsingatæknistjórnunar og kröfum um reglufylgni?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                         <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="feature-icon mb-3"><i class="bi bi-person-slash"></i></div>
+                                <h5 class="card-title">Skortir sérþekkingu?</h5>
+                                <p class="card-text">Hefurðu áhyggjur af því að uppfylla reglugerðir eins og NIS2 án sérhæfðs starfsfólks í UT öryggi?</p>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                         <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="feature-icon mb-3"><i class="bi bi-patch-question"></i></div>
+                                <h5 class="card-title">Flókið tæknimál?</h5>
+                                <p class="card-text">Áttu í erfiðleikum með að skilja tæknileg hugtök og raunverulega ábyrgð þína sem stjórnandi?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6">
+                         <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="feature-icon mb-3"><i class="bi bi-eye"></i></div>
+                                <h5 class="card-title">Þarftu yfirsýn stjórnenda?</h5>
+                                <p class="card-text">Veist að þú berð endanlega ábyrgð en skortir verkfærin til að hafa skilvirkt eftirlit með UT áhættum?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                         <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="feature-icon mb-3"><i class="bi bi-cloud-slash"></i></div>
+                                <h5 class="card-title">Óljós mynd af útvistun?</h5>
+                                <p class="card-text">Erfitt að fá skýra mynd af öryggisstöðu þinni frá utanaðkomandi UT þjónustuaðilum?</p>
+                             </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <!-- 3. Solution Section -->
+        <section class="section-padding bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <h2>Við kynnum Verjumst: Einfalda leið til að uppfylla kröfur í upplýsingatækni.</h2>
+                        <p class="lead">Verjumst er sérstaklega hannað fyrir stjórnendur lítilla og meðalstórra fyrirtækja. Við leiðum þig í gegnum flókna hluti – <em>á mannamáli</em>.</p>
+                        <p>Kerfið okkar leiðir þig í gegnum mikilvægustu skrefin í upplýsingatæknistjórnun og að reglufylgni, þar á meðal NIS2.</p>
+                        <h5 class="mt-4">Valdeflum stjórnendur, treystum ekki bara á tæknifólkið.</h5>
+                        <p>Verjumst færir stjórn og yfirsýn aftur þangað sem hún á heima – til stjórnenda sem bera endanlega ábyrgð.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Actual Image (Ensure path is correct) -->
+                        <img src="../images/placeholderimage1.png"  alt="Skjáskot af Verjumst mælaborði sem sýnir skýrar skýrslur" class="img-fluid rounded shadow-sm">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. How It Works Section -->
+        <section class="section-padding" id="how-it-works">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2>Náðu reglufylgni í 4 einföldum skrefum</h2>
+                </div>
+                <div class="row g-4 text-center">
+                    <div class="col-md-3">
+                        <div class="feature-icon"><i class="bi bi-clipboard-check"></i></div>
+                        <h5>1. Meta</h5>
+                        <p>Svaraðu einföldum spurningum (á mannamáli!) um fyrirtækið þitt. Við greinum þarfir þínar og eyður í reglufylgni.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-icon"><i class="bi bi-list-task"></i></div>
+                        <h5>2. Skipuleggja</h5>
+                        <p>Fáðu skýra, forgangsraðaða aðgerðaáætlun. Fáðu að vita nákvæmlega hvað þarf að gera og í hvaða röð.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-icon"><i class="bi bi-check2-square"></i></div>
+                        <h5>3. Framkvæma</h5>
+                        <p>Fylgdu auðskiljanlegum leiðbeiningum og fylgstu með framvindu nauðsynlegra verkefna – frá stefnum til öryggisráðstafana.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-icon"><i class="bi bi-bar-chart-line"></i></div>
+                        <h5>4. Skýrsla & Viðhald</h5>
+                        <p>Fáðu skýrar, hnitmiðaðar skýrslur sem sýna stöðu, áhættur og framvindu. Fullkomið til að halda stjórnendum upplýstum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Key Features & Benefits Section -->
+        <section class="section-padding bg-light">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2>Allt sem þú þarft fyrir hugarró</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 d-flex align-items-start">
+                       <div class="feature-icon me-3 flex-shrink-0"><i class="bi bi-chat-left-text"></i></div>
+                        <div>
+                            <h5>Útskýringar á mannamáli</h5>
+                            <p>Skildu flóknar kröfur án þess að þurfa tækni-orðabók.</p>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-4 d-flex align-items-start">
+                       <div class="feature-icon me-3 flex-shrink-0"><i class="bi bi-list-ol"></i></div>
+                        <div>
+                            <h5>Leiðsögn skref fyrir skref</h5>
+                            <p>Veltu aldrei fyrir þér hvað eigi að gera næst. Við leiðum þig áfram.</p>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-4 d-flex align-items-start">
+                       <div class="feature-icon me-3 flex-shrink-0"><i class="bi bi-shield-lock"></i></div>
+                        <div>
+                            <h5>NIS2 & Reglufylgni kortlagning</h5>
+                            <p>Takastu beint á við helstu reglugerðarkröfur sem eiga við fyrirtæki þitt.</p>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-4 d-flex align-items-start">
+                       <div class="feature-icon me-3 flex-shrink-0"><i class="bi bi-clipboard-data"></i></div>
+                        <div>
+                            <h5>Skýr stjórnendaskýrsla</h5>
+                            <p>Sjáðu strax stöðu þína, áhættur og forgangsröðun. Taktu upplýstar ákvarðanir.</p>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-4 d-flex align-items-start">
+                       <div class="feature-icon me-3 flex-shrink-0"><i class="bi bi-bullseye"></i></div>
+                        <div>
+                            <h5>Forgangsröðun aðgerða</h5>
+                            <p>Beindu tíma þínum og fjármagni að mikilvægustu verkefnunum fyrst.</p>
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-4 d-flex align-items-start">
+                       <div class="feature-icon me-3 flex-shrink-0"><i class="bi bi-people-fill"></i></div>
+                        <div>
+                            <h5>Verkfæri fyrir sameiginlega ábyrgð</h5>
+                            <p>Skilgreindu og fylgdu verkefnum skýrt eftir, hvort sem þau eru unnin innan eða utan fyrirtækis.</p>
+                        </div>
+                    </div>
+                </div>
+                 <p class="text-center mt-5 lead">Minnkaðu áhættu, sparaðu tíma, byggðu upp traust og tryggðu þér sanna hugarró.</p>
+            </div>
+        </section>
+
+        <!-- 6. Target Audience Reinforcement Section -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="row align-items-center">
+                     <div class="col-md-6 order-md-2"> 
+                        <h2>Hannað fyrir fyrirtæki eins og þitt</h2>
+                        <p>Verjumst hentar best fyrir lítil og meðalstór fyrirtæki, sérstaklega þau sem:</p>
+                        <ul>
+                            <li>Þurfa að uppfylla reglugerðir eins og NIS2.</li>
+                            <li>Eru án sérstaks starfsfólks í UT öryggi í fullu starfi.</li>
+                            <li>Þar sem stjórnendur þurfa skýra yfirsýn og stjórn á UT áhættu.</li>
+                            <li>Treysta á útvistaða UT þjónustu en þurfa að tryggja stjórnun.</li>
+                            <li>Leita að notendavænni og hagkvæmri leið til að byrja á UT stjórnun.</li>
+                        </ul>
+                    </div>
+                     <div class="col-md-6 order-md-1"> 
+                        <!-- Actual Image (Ensure path is correct) -->
+                         <img src="../images/placeholderimage2.png" alt="Mynd af fjölbreyttum hópi starfsmanna lítils fyrirtækis í samvinnu" class="img-fluid rounded shadow-sm">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Urgency / Call to Action Reinforcement Section -->
+        <section class="section-padding bg-primary text-white text-center" id="cta">
+            <div class="container">
+                 <h2 class="text-white">Ekki bíða eftir úttektinni eða atvikinu.</h2>
+                 <p class="lead mb-4">Fyrirbyggjandi UT stjórnun snýst ekki bara um reglufylgni; hún snýst um að vernda fyrirtækið þitt, orðspor þitt og viðskiptavini þína. Frestir fyrir reglugerðir eins og NIS2 nálgast. Taktu fyrsta skrefið í átt að öruggara fyrirtæki í dag.</p>
+                 <a href="mailto:verjumst@verjumst.is?subject=Bei%C3%B0ni%20um%20kynningu%20%C3%A1%20Verjumst" class="btn btn-light btn-lg">Óska eftir kynningu</a>
+            </div>
+        </section>
+
+        <!-- 8. Social Proof / Testimonial Section (Optional) -->
+        <section class="section-padding testimonial">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2>Treyst af fyrirtækjum eins og þínu</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <figure class="text-center">
+                          <blockquote class="blockquote">
+                            <p>"[Tilvitnunartexti á íslensku: 'Verjumst gerði ógnvekjandi ferli viðráðanlegt. Skýrslurnar eru nákvæmlega það sem ég þurfti fyrir stjórnina.']"</p>
+                          </blockquote>
+                          <figcaption class="blockquote-footer">
+                            [Nafn/Titill], <cite title="Source Title">[Nafn fyrirtækis]</cite>
+                          </figcaption>
+                        </figure>
+                         <!-- Add more testimonials as needed -->
+                    </div>
+                     <!-- Optional: Logos -->
+                     <!-- <div class="col-12 text-center mt-5">
+                         <p class="text-muted">Stolt af því að aðstoða fyrirtæki eins og:</p>
+                         [Logo Placeholder 1] [Logo Placeholder 2] [Logo Placeholder 3]
+                     </div> -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 9. Footer -->
+    <footer class="py-4 mt-auto bg-light">
+        <div class="container text-center">
+            <small class="text-muted">
+                © <script>document.write(new Date().getFullYear())</script> Verjumst. All Rights Reserved. |
+                <a href="/is/privacy-policy.html" class="text-muted">Persónuverndarstefna</a> |
+                <a href="/is/terms-of-service.html" class="text-muted">Notkunarskilmálar</a> |
+                <a href="/is/contact.html" class="text-muted">Hafa samband</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
